@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import styled, {ThemeProvider} from "styled-components";
 import { lightTheme, darkTheme, GlobalStyles} from "./components/theme.js"
 import {Button} from "./styles/Button.styled";
+import {Header} from "./components/Header";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
     <ThemeProvider theme={ theme === "light" ? lightTheme : darkTheme}>
       <GlobalStyles/>
             <StyledApp>
+                <Header/>
                 <h1>Styled-Components</h1>
                 <Button onClick={() => themeToggler()}> Byt Tema</Button>
             </StyledApp>
