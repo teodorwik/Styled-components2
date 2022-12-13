@@ -1,8 +1,8 @@
 import React, {useState} from "react";
 import styled, {ThemeProvider} from "styled-components";
-import { lightTheme, darkTheme, GlobalStyles} from "./components/theme.js"
-import {Button} from "./styles/Button.styled";
-import {Header} from "./components/Header";
+import { lightTheme, darkTheme, GlobalStyles} from "./Components/theme.js"
+import {LightDarkButton} from "./Styles/Button.styled";
+import {Header} from "./Components/Header";
 
 function App() {
 
@@ -19,9 +19,8 @@ function App() {
     <ThemeProvider theme={ theme === "light" ? lightTheme : darkTheme}>
       <GlobalStyles/>
             <StyledApp>
+                <LightDarkButton onClick={() => themeToggler()}> BYT TEMA</LightDarkButton>
                 <Header/>
-                <h1>Styled-Components</h1>
-                <Button onClick={() => themeToggler()}> Byt Tema</Button>
             </StyledApp>
     </ThemeProvider>
   );

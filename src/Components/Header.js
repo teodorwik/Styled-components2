@@ -1,4 +1,4 @@
-import {StyledHeader, Nav, Logo} from "../styles/Header.styled";
+import {StyledHeader, Nav, Logo} from "../Styles/Header.styled";
 
 export function Header(){
 
