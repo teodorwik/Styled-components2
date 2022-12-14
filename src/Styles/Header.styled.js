@@ -8,7 +8,7 @@ export const Nav = styled.nav`
     background-color: ${(props) => props.theme.NavColor};
     display: flex;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     
     @media(max-width: 768px){
         flex-direction: column
