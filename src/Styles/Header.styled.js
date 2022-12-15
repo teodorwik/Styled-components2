@@ -10,6 +10,7 @@ export const Nav = styled.nav`
     align-items: center;
     margin-bottom: 10px;
     
+    
     @media(max-width: 768px){
         flex-direction: column
     }
@@ -21,3 +22,25 @@ export const Logo = styled.img`
     }
     max-width: 15%;
 `
+export const NavText = styled.a`
+    float: left;
+    color: ${(props) => props.theme.fontColor};
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    &:hover {
+        opacity: 0.9;
+        transform: scale(1.1);
+        color: ${(props) => props.theme.fontColorHover}
+    }
+    
+`
+
+export const NavContainer= styled.div`
+    background-color: ${(props) => props.theme.NavColor};
+    display: flex;
+    
+    
+`
+

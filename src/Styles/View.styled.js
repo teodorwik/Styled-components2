@@ -17,11 +17,14 @@ export const Container = styled.nav`
 `
 export const Card = styled.div`
     background-color: ${(props) => props.theme.CardBackground};
+    box-shadow: 2px 2px ${(props) => props.theme.CardShadow};
     align-items: center;
     justify-content: center;
     display: flex;
     margin:20px;
     height:400px;
     Width: 90%;
+    
+    
 `
 

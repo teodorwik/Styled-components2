@@ -10,6 +10,9 @@ export const lightTheme = {
 //Global
     body: "#FDE2E2",
     fontColor: "#000",
+    fontColorHover: "#679B9B",
+
+//Buttons
     buttonColor: "#679B9B",
     buttonColorSuccess: "#1d9d3b",
     buttonColorWarning: "#a91313",
@@ -20,6 +23,7 @@ export const lightTheme = {
 //View
     Container: "#FFB6B6",
     CardBackground: "#FDE2E2",
+    CardShadow: "#679B9B",
 
 };
 
@@ -34,6 +38,9 @@ export const darkTheme = {
 //Global
     body: "#222831",
     fontColor: "#EEEEEE",
+    fontColorHover: "#00ADB5",
+
+//Buttons
     buttonColor: "#00ADB5",
     buttonColorSuccess: "#1d9d3b",
     buttonColorWarning: "#a91313",
@@ -44,6 +51,7 @@ export const darkTheme = {
 //View
     Container: "#393E46",
     CardBackground: "#222831",
+    CardShadow: "#00ADB5",
 
 };
 
