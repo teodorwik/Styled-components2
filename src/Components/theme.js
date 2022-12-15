@@ -18,12 +18,15 @@ export const lightTheme = {
     buttonColorWarning: "#a91313",
 
 //Header
-    NavColor: "#FFB6B6",
+    NavHeader: "#FFB6B6",
 
 //View
     Container: "#FFB6B6",
     CardBackground: "#FDE2E2",
     CardShadow: "#679B9B",
+
+//Footer
+    NavFooter: "#FFB6B6",
 
 };
 
@@ -46,12 +49,15 @@ export const darkTheme = {
     buttonColorWarning: "#a91313",
 
 //Header
-    NavColor: "#393E46",
+    NavHeader: "#393E46",
 
 //View
     Container: "#393E46",
     CardBackground: "#222831",
     CardShadow: "#00ADB5",
+
+//Footer
+    NavFooter: "#393E46",
 
 };
 

@@ -1,14 +1,14 @@
-import {StyledHeader, Nav, Logo, NavText, NavContainer} from "../Styles/Header.styled";
+import {StyledHeader, NavHeader, Logo, NavText, NavContainer} from "../Styles/Header.styled";
 
 export function Header(){
 
     return(
         <StyledHeader>
-            <Nav>
+            <NavHeader>
                 <Logo src='./images/logo.logo.png' alt=''/>
                 <h1>STYLED-COMPONENTS</h1>
 
-            </Nav>
+            </NavHeader>
             <NavContainer>
                     <NavText href="#home">Home</NavText>
                     <NavText href="#news">News</NavText>

@@ -4,8 +4,8 @@ export const StyledHeader = styled.header`
     padding: 10px 0;
 `
 
-export const Nav = styled.nav`
-    background-color: ${(props) => props.theme.NavColor};
+export const NavHeader = styled.nav`
+    background-color: ${(props) => props.theme.NavHeader};
     display: flex;
     align-items: center;
     margin-bottom: 10px;
@@ -26,7 +26,7 @@ export const NavText = styled.a`
     float: left;
     color: ${(props) => props.theme.fontColor};
     text-align: center;
-    padding: 15px 20px;
+    padding: 15px 30px;
     text-decoration: none;
     font-size: 17px;
     &:hover {
@@ -38,7 +38,7 @@ export const NavText = styled.a`
 `
 
 export const NavContainer= styled.div`
-    background-color: ${(props) => props.theme.NavColor};
+    background-color: ${(props) => props.theme.NavHeader};
     display: flex;
     
     
