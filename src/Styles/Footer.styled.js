@@ -8,4 +8,6 @@ export const NavFooter = styled.nav`
     display: flex;
     align-items: center;
     justify-content:center;
+    border: solid 3px ${(props) => props.theme.GlobalBorder};
+    border-radius: 10px;
 `

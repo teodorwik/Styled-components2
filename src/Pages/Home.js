@@ -1,22 +1,25 @@
-import {StyledView, Container, Card} from "../Styles/View.styled";
+import {StyledHome, Container, Card, Img} from "../Styles/Home.styled";
 import {Button, SuccessButton, WarningButton} from "../Styles/Button.styled";
 
-export function View(){
+export function Home(){
 
     return(
-        <StyledView>
+        <StyledHome>
             <Container>
                 <Card>
+                    <Img src='./images/tree.png' alt=''/>
                     <Button>Button</Button>
                 </Card>
                 <Card>
+                    <Img src='./images/sunrise.png' alt=''/>
                     <SuccessButton>OK</SuccessButton>
                 </Card>
                 <Card>
+                    <Img src='./images/sea.png' alt=''/>
                     <WarningButton>Nej</WarningButton>
                 </Card>
             </Container>
-        </StyledView>
+        </StyledHome>
     )
 
 }

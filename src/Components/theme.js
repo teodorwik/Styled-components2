@@ -2,31 +2,31 @@ import {createGlobalStyle} from "styled-components";
 
 export const lightTheme = {
 //Inspiration
-    darkteal:"#679B9B",
-    lightteal:"#AACFCF",
-    peach:"#FFB6B6",
-    white:"#FDE2E2",
+
 
 //Global
-    body: "#FDE2E2",
+    body: "#F4F8F3",
     fontColor: "#000",
-    fontColorHover: "#679B9B",
+    fontColorHover: "#CDAC79",
+    GlobalBorder: "#CDAC79",
 
 //Buttons
-    buttonColor: "#679B9B",
-    buttonColorSuccess: "#1d9d3b",
-    buttonColorWarning: "#a91313",
+    buttonColor: "#eedcd7",
+    buttonColorSuccess: "#53b768",
+    buttonColorWarning: "#b23e3e",
+    buttonBorder: "#CDAC79",
 
 //Header
-    NavHeader: "#FFB6B6",
+    NavHeader: "#eedcd7",
 
-//View
-    Container: "#FFB6B6",
-    CardBackground: "#FDE2E2",
-    CardShadow: "#679B9B",
+//Home
+    Container: "#eedcd7",
+    CardBackground: "#F4F8F3",
+    CardShadow: "#836559",
+    CardBorder: "#CDAC79",
 
 //Footer
-    NavFooter: "#FFB6B6",
+    NavFooter: "#eedcd7",
 
 };
 
@@ -42,19 +42,22 @@ export const darkTheme = {
     body: "#222831",
     fontColor: "#EEEEEE",
     fontColorHover: "#00ADB5",
+    GlobalBorder: "#00ADB5",
 
 //Buttons
     buttonColor: "#00ADB5",
     buttonColorSuccess: "#1d9d3b",
     buttonColorWarning: "#a91313",
+    buttonBorder: "#00ADB5",
 
 //Header
     NavHeader: "#393E46",
 
-//View
+//Home
     Container: "#393E46",
     CardBackground: "#222831",
-    CardShadow: "#00ADB5",
+    CardShadow: "#222831",
+    CardBorder: "#00ADB5",
 
 //Footer
     NavFooter: "#393E46",

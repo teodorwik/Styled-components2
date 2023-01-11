@@ -9,7 +9,8 @@ export const NavHeader = styled.nav`
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    
+    border: solid 3px ${(props) => props.theme.GlobalBorder};
+    border-radius: 10px;
     
     @media(max-width: 768px){
         flex-direction: column
@@ -29,6 +30,7 @@ export const NavText = styled.a`
     padding: 15px 30px;
     text-decoration: none;
     font-size: 17px;
+    font-family: Trebuchet MS;
     &:hover {
         opacity: 0.9;
         transform: scale(1.1);
@@ -40,7 +42,7 @@ export const NavText = styled.a`
 export const NavContainer= styled.div`
     background-color: ${(props) => props.theme.NavHeader};
     display: flex;
-    
-    
+    border: solid 3px ${(props) => props.theme.GlobalBorder};
+    border-radius: 10px;
 `
 

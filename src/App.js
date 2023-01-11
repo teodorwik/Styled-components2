@@ -3,8 +3,13 @@ import styled, {ThemeProvider} from "styled-components";
 import { lightTheme, darkTheme, GlobalStyles} from "./Components/theme.js"
 import {LightDarkButton} from "./Styles/Button.styled";
 import {Header} from "./Components/Header";
-import {View} from "./Components/View"
+import {Home, Contact, News, About} from "./Pages"
 import {Footer} from "./Components/Footer"
+import {BrowserRouter as Router,
+        Switch,
+        Route,
+        Link
+        } from "react-router-dom";
 
 function App() {
 
@@ -23,7 +28,7 @@ function App() {
             <StyledApp>
                 <LightDarkButton onClick={() => themeToggler()}> BYT TEMA</LightDarkButton>
                 <Header/>
-                <View/>
+                <Home/>
                 <Footer/>
             </StyledApp>
     </ThemeProvider>
